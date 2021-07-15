@@ -1,0 +1,6 @@
+framework module Pods_MotSpot_MotSpotUITests {
+  umbrella header "Pods-MotSpot-MotSpotUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
