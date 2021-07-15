@@ -6,20 +6,20 @@
 //
 
 import SwiftUI
-import Firebase
-import FirebaseAuth
+//import Firebase
+//import FirebaseAuth
 
 struct ContentView: View {
     
     @State private var showStartView = false
     
-    @State  var email: String = ""
-    @State  var pass: String = ""
-    @State var message = ""
-    @State var alert = false
-    @State var show = false
+    @State private var email: String = ""
+    @State private var pass: String = ""
+    @State private var message = ""
+    @State private var alert = false
+    @State private var show = false
     
-    @ObservedObject var manager = HttpAuth()
+    @StateObject private var manager = HttpAuth()
     
     var body: some View {
         Color.white
